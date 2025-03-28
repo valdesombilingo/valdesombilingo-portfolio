@@ -1,0 +1,11 @@
+name: Seed issues
+on: ["create"]
+permissions:
+  issues: write
+jobs:
+  create-issues:
+    if: github.event.ref == github.event.master_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jayalfredprufrock/create-issues-action@v1

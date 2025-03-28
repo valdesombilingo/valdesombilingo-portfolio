@@ -1,0 +1,38 @@
+name: Create Issues from Template
+
+on:
+  create:
+    branches:
+      - dev
+    types:
+      - created
+
+jobs:
+  create_issues:
+    if: github.event.repository.is_template == false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.repository.full_name }} # Checkout the newly created repository
+          token: ${{ secrets.GITHUB_TOKEN }} # Important for write access
+          ref: ${{ github.event.ref }} # checkout the default branch.
+
+      - name: Find Issue Templates
+        id: find_templates
+        run: |
+          TEMPLATES=$(find .github/ISSUE_TEMPLATE -type f -name "*.md")
+          echo "templates=$TEMPLATES" >> $GITHUB_OUTPUT
+
+      - name: Create Issues
+        if: steps.find_templates.outputs.templates != ''
+        run: |
+          TEMPLATES=$(echo "${{ steps.find_templates.outputs.templates }}" | tr ' ' '\n')
+          while IFS= read -r template; do
+            TITLE=$(grep -oP '^title: \K(.*)' "$template")
+            BODY=$(sed -n '/^---$/,/^---$/!p' "$template" | tail -n +2)
+            gh issue create --title "$TITLE" --body "$BODY"
+          done < <(echo "$TEMPLATES")
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
