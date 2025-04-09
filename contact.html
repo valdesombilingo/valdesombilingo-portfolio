@@ -7,57 +7,197 @@
       name="description"
       content="Contactez Valdes Ombilingo - Développeur web fullstack à Kinshasa. Disponible pour des projets ou collaborations."
     />
-
-    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
-    <title>CV - Valdes ombilingo</title>
+    <title>Contact - Valdes ombilingo</title>
   </head>
-  <body>
-    <header>
-      <h1><a href="/index.html">Valdes Ombilingo</a></h1>
 
-      <nav>
-        <ul>
-          <li><a href="/index.html">Accueil</a></li>
-          <li><a href="/cv.html">CV</a></li>
-          <li><a href="/projets.html">Project</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header>
+      <!-- ICONES DES RESEAUX SOCIAUX -->
+      <div class="social-icons">
+        <a
+          href="https://github.com/valdesombilingo"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/valdes__val"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+
+      <!-- HEADER CONTAINER -->
+      <section class="header-container">
+        <!-- LOGO -->
+        <h1>
+          <a href="index.html"
+            >Valdes <br />
+            Ombilingo</a
+          >
+        </h1>
+
+        <!-- NAV-BAR -->
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projets.html">Projet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
+    <!-- ================= MAIN ================= -->
     <main>
-      <section class="hero"></section>
+      <!-- CONTACT CONTAINER -->
+      <section class="contact-container">
+        <!-- CONTACT LEFT -->
+        <div class="contact">
+          <i class="fa-regular fa-paper-plane"></i>
+          <div class="contact-text">
+            <div class="contact-top">
+              <h2>Me contacter</h2>
+              <p>
+                N'hésitez pas à me contacter
+                <strong>valdesombilingo@gmail.com</strong> <br />
+                en envoyant un message via le formulaire.
+              </p>
+            </div>
+
+            <div class="contact-bottom">
+              <h3>Suivez-moi</h3>
+              <div class="social-icons bottom">
+                <a
+                  href="https://github.com/valdesombilingo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/valdes__val"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT RIGTH FORM -->
+        <div class="form-container">
+          <form action="" class="contact-form" method="POST">
+            <!-- names-groupe -->
+            <div class="input-names">
+              <!-- nom -->
+              <input
+                type="text"
+                id="name"
+                name="name"
+                maxlength="50"
+                placeholder="Nom"
+                required
+              />
+
+              <!-- prenom -->
+              <input
+                type="text"
+                id="first-name"
+                name="firstname"
+                maxlength="50"
+                placeholder="Prénom"
+                required
+              />
+            </div>
+
+            <!-- e-mail -->
+            <input
+              type="email"
+              id="email"
+              name="email"
+              maxlength="50"
+              placeholder="Email"
+              required
+            />
+
+            <!-- objet -->
+            <input
+              type="text"
+              id="object"
+              name="object"
+              maxlength="50"
+              placeholder="Objet"
+              required
+            />
+
+            <!-- message -->
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="33"
+              maxlength="500"
+              placeholder="Votre message..."
+              required
+            ></textarea>
+
+            <!-- Submit btn -->
+            <button
+              type="submit"
+              value="send"
+              class="btn secondary-brown submit"
+            >
+              Envoyer
+            </button>
+
+            <p>
+              Les informations saisies sont utilisées uniquement pour répondre à
+              votre message. Aucune utilisation commerciale ou publicitaire ne
+              sera faite.
+            </p>
+          </form>
+        </div>
+      </section>
     </main>
 
+    <!-- ================= FOOTER ================= -->
     <footer>
-      <section>
+      <section class="footer-container">
         <div>
           <h3>Téléphone</h3>
-          <p>+243 975 242 057</p>
+          <a href="tel:+243975242057" class="footer-link">+243 975 242 057</a>
         </div>
 
         <div>
-          <p>Email</p>
-          <p>valdesombilingo@gmail.com</p>
+          <h3>Email</h3>
+          <a href="mailto:valdesombilingo@gmail.com" class="footer-link"
+            >valdesombilingo@gmail.com</a
+          >
         </div>
 
-        <div>
-          <h3>Suivez-moi</h3>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-
-        <div>© 2025 Valdes Ombilingo. Tous droits réservés.</div>
-
-        <div>
-          <h3></h3>
-          <p></p>
-        </div>
+        <div><p>© 2025 Valdes Ombilingo. Tous droits réservés.</p></div>
       </section>
     </footer>
   </body>
