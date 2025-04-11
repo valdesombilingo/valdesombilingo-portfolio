@@ -341,7 +341,6 @@
   }
   .cv-container {
     padding: 1rem;
-    border-radius: 0;
   }
 
   .cv-container h2 {
@@ -417,5 +416,166 @@
 
   .contact-text {
     gap: 2rem;
+  }
+}
+
+/* ====================== */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* HEADER */
+
+  .social-icons a {
+    font-size: 0.875rem;
+  }
+
+  .header-container {
+    padding: 0 1.5rem 2.5rem 1.5rem;
+  }
+
+  header ul {
+    gap: 1.2rem;
+  }
+
+  header ul li a {
+    font-size: 0.875rem;
+  }
+
+  .profil-container {
+    padding-bottom: 2.5rem;
+  }
+
+  .profil {
+    gap: 0.875rem;
+  }
+
+  .profil img {
+    max-width: 14rem;
+  }
+
+  .profil-quote {
+    font-size: 1rem;
+  }
+
+  .profil-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn.secondary-brown {
+    padding: 0.5rem 1rem;
+  }
+
+  .profil-content {
+    gap: 1.5rem;
+  }
+
+  .about {
+    padding: 1.5rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .icons-btn {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .tech-logos {
+    padding: 1.5rem 0 6rem 0;
+  }
+
+  .tech-logos h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .logos-track i {
+    font-size: 3rem;
+  }
+
+  .footer-container {
+    padding: 8px 0 48px 0;
+    margin: 0 1.5rem;
+  }
+
+  .footer-link {
+    font-size: 1rem;
+  }
+
+  .footer-container p:last-child {
+    font-size: 1rem;
+  }
+
+  /* ------------------------------- CV ---------------------------------- */
+
+  .cv-main {
+    padding-bottom: 6rem;
+    max-width: 50rem;
+    margin: 0 1.5rem;
+  }
+
+  .cv-container {
+    padding: 1.5rem;
+  }
+
+  .cv-container h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .formation-title p,
+  .experience-title p {
+    font-size: 0.5rem;
+  }
+
+  .cv-note {
+    margin-bottom: 0.875rem;
+  }
+
+  /* ------------------------------- PROJET ---------------------------------- */
+
+  .projet-container {
+    padding-bottom: 6rem;
+    margin: 0 2.5rem;
+    gap: 3rem;
+  }
+
+  .projet-text {
+    padding: 0;
+  }
+
+  /* ------------------------------- CONTACT ---------------------------------- */
+
+  .contact-container {
+    margin: 0 1.5rem;
+    padding-bottom: 6rem;
+    gap: 1.5rem;
+  }
+
+  .contact {
+    width: 50%;
+    gap: 1rem;
+  }
+
+  .contact .fa-regular.fa-paper-plane {
+    font-size: 3rem;
+  }
+
+  .contact-text p {
+    text-align: center;
+  }
+
+  .contact-text {
+    gap: 1.5rem;
+  }
+
+  .form-container {
+    width: 50%;
   }
 }
