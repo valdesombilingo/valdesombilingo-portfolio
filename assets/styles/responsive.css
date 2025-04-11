@@ -201,3 +201,221 @@
 }
 
 /* ====================== */
+
+@media (min-width: 361px) and (max-width: 576px) {
+  p {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /* ------------------------------- ACCUEIL ---------------------------------- */
+  /* HEADER */
+  .social-icons {
+    display: none;
+  }
+
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem 3rem 2rem;
+    gap: 1.5rem;
+  }
+
+  .logo-img {
+    display: block;
+    max-width: 25%;
+    margin: 0 auto;
+  }
+
+  header ul {
+    gap: 2.5rem;
+  }
+
+  header h1 a {
+    display: none;
+  }
+
+  menu ul li a {
+    font-size: 1.2rem;
+  }
+
+  menu ul li:first-child {
+    display: none;
+  }
+
+  /* MAIN */
+
+  .profil-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+    gap: 4rem;
+  }
+
+  .profil-content {
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .profil-btns {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .profil {
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  .profil img {
+    max-width: 20rem;
+  }
+
+  .profil-quote {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .about {
+    padding: 2rem 1rem;
+  }
+
+  .about h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .tech-logos {
+    padding: 3rem 0 6rem 0;
+  }
+
+  .logos-track {
+    animation: scroll-left 3s linear infinite;
+  }
+
+  .logos-track i {
+    font-size: 4rem;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 8px 0 16px 0;
+    margin: 0 1rem;
+    gap: 3rem;
+  }
+
+  .footer-link {
+    font-size: 1.2rem;
+  }
+
+  .footer-container p:last-of-type {
+    font-size: 0.875rem;
+  }
+
+  .footer-icons {
+    display: flex;
+  }
+
+  .footer-icons a {
+    font-size: 2rem;
+  }
+  /* ------------------------------- CV ---------------------------------- */
+  .cv-main {
+    margin: 0 1rem;
+  }
+  .cv-container {
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  .cv-container h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .formation-title,
+  .experience-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .formation-title p,
+  .experience-title p {
+    font-size: 0.875rem;
+  }
+
+  /* ------------------------------- PROJET ---------------------------------- */
+
+  .projet-container {
+    margin: 0 1rem;
+    gap: 3rem;
+  }
+
+  .projet-container h2 {
+    font-size: 3rem;
+  }
+
+  .projet {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .projet-text {
+    max-width: 100%;
+  }
+
+  .projet-text {
+    padding: 0;
+  }
+
+  .projet-image {
+    max-width: 100%;
+  }
+  .projet-image img {
+    max-width: 100%;
+  }
+
+  /* ------------------------------- CONTACT ---------------------------------- */
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    gap: 2.5rem;
+  }
+
+  .contact {
+    gap: 1.25rem;
+  }
+
+  .contact .fa-regular.fa-paper-plane {
+    font-size: 3rem;
+  }
+
+  .contact-text p {
+    text-align: center;
+  }
+
+  .contact-text {
+    gap: 2rem;
+  }
+}
