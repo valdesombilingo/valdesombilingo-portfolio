@@ -457,6 +457,7 @@ header ul li a:focus {
   align-items: center;
   text-align: center;
   gap: 2rem;
+  max-width: 50%;
 }
 .contact .fa-regular.fa-paper-plane {
   font-size: 5.5rem;

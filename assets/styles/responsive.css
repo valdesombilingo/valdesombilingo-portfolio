@@ -201,7 +201,6 @@
 }
 
 /* ====================== */
-
 @media (min-width: 361px) and (max-width: 576px) {
   p {
     text-align: left;
@@ -421,8 +420,8 @@
 
 /* ====================== */
 @media (min-width: 577px) and (max-width: 768px) {
+  /* ------------------------------- ACCUEIL ---------------------------------- */
   /* HEADER */
-
   .social-icons a {
     font-size: 0.875rem;
   }
@@ -542,7 +541,7 @@
 
   .projet-container {
     padding-bottom: 6rem;
-    margin: 0 2.5rem;
+    margin: 0 1.5rem;
     gap: 3rem;
   }
 
@@ -577,5 +576,79 @@
 
   .form-container {
     width: 50%;
+  }
+}
+
+/* ====================== */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* ------------------------------- ACCUEIL ---------------------------------- */
+  /* HEADER */
+
+  .header-container {
+    padding: 0 1.5rem 2.5rem 1.5rem;
+  }
+
+  /* MAIN */
+  .about {
+    padding: 2rem 1.5rem;
+  }
+
+  .tech-logos {
+    padding: 1.5rem 0 6rem 0;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 8px 0 48px 0;
+    margin: 0 1.5rem;
+  }
+
+  /* ------------------------------- CV ---------------------------------- */
+
+  .cv-main {
+    padding-bottom: 6rem;
+    max-width: 50rem;
+    margin: 0 1.5rem;
+  }
+
+  .cv-container {
+    padding: 1.5rem;
+  }
+
+  .cv-container h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* ------------------------------- PROJET ---------------------------------- */
+
+  .projet-container {
+    padding-bottom: 6rem;
+    margin: 0 1.5rem;
+    gap: 3rem;
+  }
+
+  .projet-text {
+    padding: 0;
+  }
+
+  /* ------------------------------- CONTACT ---------------------------------- */
+
+  .contact-container {
+    margin: 0 1.5rem;
+    padding-bottom: 6rem;
+    gap: 1.5rem;
+  }
+
+  .contact .fa-regular.fa-paper-plane {
+    font-size: 3rem;
+  }
+
+  .contact-text p {
+    text-align: center;
+  }
+
+  .contact-text {
+    gap: 1.5rem;
   }
 }
