@@ -184,6 +184,7 @@
   }
 
   .contact {
+    max-width: 100%;
     gap: 1.25rem;
   }
 
@@ -197,6 +198,17 @@
 
   .contact-text {
     gap: 2rem;
+  }
+
+  .contact-icons {
+    gap: 2.5em;
+  }
+
+  .contact-icons a {
+    font-size: 2rem;
+  }
+  .form-container {
+    max-width: 100%;
   }
 }
 
@@ -402,6 +414,7 @@
   }
 
   .contact {
+    max-width: 100%;
     gap: 1.25rem;
   }
 
@@ -415,6 +428,14 @@
 
   .contact-text {
     gap: 2rem;
+  }
+
+  .contact-icons {
+    gap: 3rem;
+  }
+
+  .form-container {
+    max-width: 100%;
   }
 }
 
@@ -554,11 +575,13 @@
   .contact-container {
     margin: 0 1.5rem;
     padding-bottom: 6rem;
-    gap: 1.5rem;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact {
-    width: 50%;
     gap: 1rem;
   }
 
@@ -575,7 +598,7 @@
   }
 
   .form-container {
-    width: 50%;
+    max-width: 100%;
   }
 }
 
@@ -637,7 +660,10 @@
   .contact-container {
     margin: 0 1.5rem;
     padding-bottom: 6rem;
-    gap: 1.5rem;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact .fa-regular.fa-paper-plane {
@@ -650,5 +676,9 @@
 
   .contact-text {
     gap: 1.5rem;
+  }
+
+  .form-container {
+    max-width: 100%;
   }
 }

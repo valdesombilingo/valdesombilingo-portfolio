@@ -304,6 +304,7 @@ header ul li a:focus {
   border-top: solid 2px var(--color-brown);
   padding: 8px 0 48px 0;
   margin: 0 5rem;
+  max-width: 100%;
 }
 
 .footer-link {
@@ -457,7 +458,7 @@ header ul li a:focus {
   align-items: center;
   text-align: center;
   gap: 2rem;
-  max-width: 50%;
+  max-width: 40%;
 }
 .contact .fa-regular.fa-paper-plane {
   font-size: 5.5rem;
@@ -474,13 +475,23 @@ header ul li a:focus {
   font-size: 2rem;
 }
 
-.social-icons.bottom {
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
-  gap: 6rem;
+  gap: 5.5rem;
 }
 
-.social-icons.bottom i {
+.contact-icons a {
+  color: var(--color-dark);
   font-size: 2.5rem;
+  transition: all 0.2s ease;
+}
+
+.contact-icons a:hover {
+  color: var(--color-brown);
+  transform: scale(1.1);
 }
 
 .form-container {
@@ -488,6 +499,7 @@ header ul li a:focus {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.039);
+  max-width: 40%;
 }
 
 .contact-form {
