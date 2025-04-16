@@ -134,6 +134,10 @@
     font-size: 1.5rem;
   }
 
+  .cv-container li {
+    font-size: 0.875rem;
+  }
+
   .formation-title,
   .experience-title {
     display: flex;
@@ -352,6 +356,10 @@
   }
   .cv-container {
     padding: 1rem;
+  }
+
+  .cv-container li {
+    font-size: 1.2rem;
   }
 
   .cv-container h2 {
