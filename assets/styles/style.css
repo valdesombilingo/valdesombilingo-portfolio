@@ -353,6 +353,10 @@ header ul li a:focus {
   padding-left: 2rem;
 }
 
+.cv-container li {
+  font-size: 1rem;
+}
+
 .cv-container h2 {
   text-align: center;
 }
@@ -431,7 +435,7 @@ header ul li a:focus {
 }
 
 .projet-text {
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 3rem 3rem 0;
 }
 
 .projet-image {

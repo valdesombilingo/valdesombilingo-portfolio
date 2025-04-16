@@ -8,6 +8,13 @@ Ce site vitrine présente mes compétences, mon parcours et mes projets réalis�
 
 ---
 
+## 🔗 Liens utiles
+
+- 🚀 **Site en ligne** : [https://valdesombilingo-portfolio.onrender.com/index.html](https://valdesombilingo-portfolio.onrender.com/index.html)
+- 🧩 **Maquette Figma** : [Voir sur Figma](https://www.figma.com/design/1IluxwmEj5OVSIbHij3KIF/maquette-Portfolio---Valdes-Ombilingo?node-id=0-1&t=XHi0tsHJPxGgBd1h-1)
+
+---
+
 ## 🛠 Technologies utilisées
 
 - 💻 **HTML5** – structure sémantique
@@ -60,6 +67,9 @@ Le site est composé de 4 pages principales :
 
 > Ce site est un projet personnel développé dans le cadre de ma formation à **KADEA**.  
 > Il est mis en ligne pour valoriser mon profil, montrer mes compétences techniques et ma progression.
+
+> Pour l’instant, mes projets sont illustrés à l’aide de **contenu fictif (Lorem Ipsum)** et d’**images illustratives**.  
+> Ils seront mis à jour **progressivement** au fur et à mesure de l'ajout de projets réels.
 
 ---
 
