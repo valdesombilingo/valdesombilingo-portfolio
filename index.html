@@ -1,242 +1,189 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio de Valdes Ombilingo - Développeur web fullstack basé à Kinshasa. Spécialisé en HTML, CSS, JavaScript, back-end, UI/UX et déploiement."
-    />
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link rel="stylesheet" href="assets/styles/responsive.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-    />
-    <title>Portfolio - Valdes ombilingo</title>
-  </head>
 
-  <body>
-    <!-- ================= HEADER ================= -->
-    <header>
-      <!-- ICONES DES RESEAUX SOCIAUX -->
-      <div class="social-icons">
-        <a
-          href="https://github.com/valdesombilingo"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-linkedin-in"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/valdes__val"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio de Valdes Ombilingo - Développeur web fullstack basé à Kinshasa. Spécialisé en HTML, CSS, JavaScript, back-end, UI/UX et déploiement.">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/responsive.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <title>Portfolio - Valdes ombilingo</title>
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+  <header>
+    <!-- ICONES DES RESEAUX SOCIAUX -->
+    <div class="social-icons">
+      <a href="https://github.com/valdesombilingo" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/valdes__val" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <!-- HEADER CONTAINER -->
+    <section class="header-container">
+      <!-- LOGO -->
+      <div>
+        <!-- LOGO MOBILE ET TABLETTE -->
+        <a href="index.html"><img src="assets/img/vo-brown-logo.png" alt="Logo de Valdes Ombilingo"
+            class="logo-img"></a>
+
+        <!-- LOGO DESKTOP -->
+        <h1>
+          <a href="index.html">Valdes <br>
+            Ombilingo</a>
+        </h1>
       </div>
 
-      <!-- HEADER CONTAINER -->
-      <section class="header-container">
-        <!-- LOGO -->
-        <div>
-          <!-- LOGO MOBILE ET TABLETTE -->
-          <a href="index.html"
-            ><img
-              src="assets/img/vo-brown-logo.png"
-              alt="Logo de Valdes Ombilingo"
-              class="logo-img"
-          /></a>
+      <!-- NAV-BAR -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="projets.html">Projet</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
-          <!-- LOGO DESKTOP -->
-          <h1>
-            <a href="index.html"
-              >Valdes <br />
-              Ombilingo</a
-            >
-          </h1>
+  <!-- ================= MAIN ================= -->
+  <main>
+    <!-- PROFIL CONTAINER -->
+    <section class="profil-container">
+      <!-- IMAGE PROFIL ET CITATION -->
+      <div class="profil">
+        <div class="picture">
+          <img src="assets/img/valdesombilingo-portfolio-compressed.jpg" alt="Photo de profil de Valdes Ombilingo">
         </div>
 
-        <!-- NAV-BAR -->
-        <nav>
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="projets.html">Projet</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </section>
-    </header>
-
-    <!-- ================= MAIN ================= -->
-    <main>
-      <!-- PROFIL CONTAINER -->
-      <section class="profil-container">
-        <!-- IMAGE PROFIL ET CITATION -->
-        <div class="profil">
-          <div class="picture">
-            <img
-              src="assets/img/valdesombilingo-portfolio-compressed.jpg"
-              alt="Photo de profil de Valdes Ombilingo"
-            />
-          </div>
-
-          <blockquote>
-            <p class="profil-quote">
-              "Ce que nous savons est une goutte d’eau ; ce que nous ignorons
-              est un océan."
-            </p>
-            <p class="profil-quote cite">
-              <cite>— Isaac Newton</cite>
-            </p>
-          </blockquote>
-        </div>
-
-        <!-- DEV. TITLE ET BOUTONS APPEL A ACTION -->
-        <div class="profil-content">
-          <div class="profil-title">
-            <h2>
-              <span class="brown-text">Développeur Web.</span> <br />
-              Créatif. <br />
-              Fullstack. <br />
-              Passionné.
-            </h2>
-          </div>
-
-          <div class="profil-btns">
-            <a href="cv.html" class="btn">Voir mon CV</a>
-            <a href="projets.html" class="btn secondary-brown"
-              >Voir mes projets</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION ABOUT -->
-      <section class="about">
-        <div class="about-text">
-          <h3>Hello Word !</h3>
-          <p>
-            Je suis
-            <strong>Valdes Ombilingo</strong>,
-            <strong>développeur web fullstack</strong> basé à
-            <strong>Kinshasa</strong> et en formation chez
-            <strong
-              ><a
-                href="https://www.kadea.academy/"
-                class="main-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >KADEA</a
-              ></strong
-            >. Passionné de musique et de <strong>technologie</strong>, je
-            conçois des <strong>sites web</strong> et
-            <strong>applications web modernes</strong> grâce à ma maîtrise du
-            <strong>front-end</strong> (<strong>HTML</strong>,
-            <strong>CSS</strong>, <strong>JavaScript</strong>) et
-            <strong>back-end</strong>. Je prends en charge tout le
-            <strong>cycle de développement</strong>, de la
-            <strong>conception UI/UX</strong> au <strong>déploiement</strong>,
-            pour créer des <strong>solutions digitales sur mesure</strong> avec
-            un bon <strong>référencement SEO</strong>.
+        <blockquote>
+          <p class="profil-quote">
+            "Ce que nous savons est une goutte d’eau ; ce que nous ignorons
+            est un océan."
           </p>
+          <p class="profil-quote cite">
+            <cite>— Isaac Newton</cite>
+          </p>
+        </blockquote>
+      </div>
+
+      <!-- DEV. TITLE ET BOUTONS APPEL A ACTION -->
+      <div class="profil-content">
+        <div class="profil-title">
+          <h2>
+            <span class="brown-text">Développeur Web.</span> <br>
+            Créatif. <br>
+            Fullstack. <br>
+            Passionné.
+          </h2>
         </div>
 
-        <div class="about-btn">
-          <a href="contact.html" class="btn"
-            ><i class="fa-regular fa-paper-plane icons-btn"></i>Me contacter</a
-          >
+        <div class="profil-btns">
+          <a href="cv.html" class="btn">Voir mon CV</a>
+          <a href="projets.html" class="btn secondary-brown">Voir mes projets</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- TECH LOGO SECTION -->
-      <section class="tech-logos">
-        <h3>Langages et outils</h3>
-        <div class="logos-container">
-          <div class="logos-track">
-            <i class="devicon-html5-plain-wordmark"></i>
-            <i class="devicon-express-original-wordmark"></i>
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-react-original-wordmark"></i>
-            <i class="devicon-vscode-plain-wordmark"></i>
-            <i class="devicon-adonisjs-original-wordmark"></i>
-            <i class="devicon-css3-plain-wordmark"></i>
-            <i class="devicon-git-plain-wordmark"></i>
-            <i class="devicon-mongodb-plain-wordmark"></i>
-            <i class="devicon-github-original-wordmark"></i>
-            <i class="devicon-figma-plain"></i>
-            <i class="devicon-nodejs-plain-wordmark"></i>
-            <i class="devicon-wordpress-plain-wordmark"></i>
+    <!-- SECTION ABOUT -->
+    <section class="about">
+      <div class="about-text">
+        <h3>Hello Word !</h3>
+        <p>
+          Je suis
+          <strong>Valdes Ombilingo</strong>,
+          <strong>développeur web fullstack</strong> basé à
+          <strong>Kinshasa</strong> et en formation chez
+          <strong><a href="https://www.kadea.academy/" class="main-link" target="_blank"
+              rel="noopener noreferrer">KADEA</a></strong>. Passionné de musique et de <strong>technologie</strong>, je
+          conçois des <strong>sites web</strong> et
+          <strong>applications web modernes</strong> grâce à ma maîtrise du
+          <strong>front-end</strong> (<strong>HTML</strong>,
+          <strong>CSS</strong>, <strong>JavaScript</strong>) et
+          <strong>back-end</strong>. Je prends en charge tout le
+          <strong>cycle de développement</strong>, de la
+          <strong>conception UI/UX</strong> au <strong>déploiement</strong>,
+          pour créer des <strong>solutions digitales sur mesure</strong> avec
+          un bon <strong>référencement SEO</strong>.
+        </p>
+      </div>
 
-            <!-- ❗ répète les logos pour que la boucle fonctionne visuellement -->
-            <i class="devicon-html5-plain-wordmark"></i>
-            <i class="devicon-express-original-wordmark"></i>
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-react-original-wordmark"></i>
-            <i class="devicon-vscode-plain-wordmark"></i>
-            <i class="devicon-adonisjs-original-wordmark"></i>
-            <i class="devicon-css3-plain-wordmark"></i>
-            <i class="devicon-git-plain-wordmark"></i>
-            <i class="devicon-mongodb-plain-wordmark"></i>
-            <i class="devicon-github-original-wordmark"></i>
-            <i class="devicon-figma-plain"></i>
-            <i class="devicon-nodejs-plain-wordmark"></i>
-            <i class="devicon-wordpress-plain-wordmark"></i>
-          </div>
+      <div class="about-btn">
+        <a href="contact.html" class="btn"><i class="fa-regular fa-paper-plane icons-btn"></i>Me contacter</a>
+      </div>
+    </section>
+
+    <!-- TECH LOGO SECTION -->
+    <section class="tech-logos">
+      <h3>Langages et outils</h3>
+      <div class="logos-container">
+        <div class="logos-track">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original-wordmark"></i>
+          <i class="devicon-vscode-plain-wordmark"></i>
+          <i class="devicon-adonisjs-original-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-git-plain-wordmark"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-github-original-wordmark"></i>
+          <i class="devicon-figma-plain"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-wordpress-plain-wordmark"></i>
+
+          <!-- ❗ répète les logos pour que la boucle fonctionne visuellement -->
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original-wordmark"></i>
+          <i class="devicon-vscode-plain-wordmark"></i>
+          <i class="devicon-adonisjs-original-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-git-plain-wordmark"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+          <i class="devicon-github-original-wordmark"></i>
+          <i class="devicon-figma-plain"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-wordpress-plain-wordmark"></i>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <!-- ================= FOOTER ================= -->
-    <footer>
-      <section class="footer-container">
-        <div>
-          <h3>Téléphone</h3>
-          <a href="tel:+243975242257" class="footer-link">+243 975 242 257</a>
-        </div>
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <section class="footer-container">
+      <div>
+        <h3>Téléphone</h3>
+        <a href="tel:+243975242257" class="footer-link">+243 975 242 257</a>
+      </div>
 
-        <div>
-          <h3>Email</h3>
-          <a href="mailto:valdesombilingo@gmail.com" class="footer-link"
-            >valdes.pro@gmail.com</a
-          >
-        </div>
+      <div>
+        <h3>Email</h3>
+        <a href="mailto:valdesombilingo@gmail.com" class="footer-link">valdes.pro@gmail.com</a>
+      </div>
 
-        <div>
-          <div class="footer-icons">
-            <a
-              href="https://github.com/valdesombilingo"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/valdes__val"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
-          <p>© 2025 Valdes Ombilingo. Tous droits réservés.</p>
+      <div>
+        <div class="footer-icons">
+          <a href="https://github.com/valdesombilingo" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/valdes-ombilingo-b94a72359/" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/valdes__val" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-instagram"></i></a>
         </div>
-      </section>
-    </footer>
-  </body>
+        <p>© 2025 Valdes Ombilingo. Tous droits réservés.</p>
+      </div>
+    </section>
+  </footer>
+</body>
+
 </html>
