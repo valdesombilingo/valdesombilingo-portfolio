@@ -10,7 +10,8 @@ Ce site vitrine présente mes compétences, mon parcours et mes projets réalis�
 
 ## 🔗 Liens utiles
 
-- 🚀 **Site en ligne** : [https://valdesombilingo-portfolio.onrender.com/index.html](https://valdesombilingo-portfolio.onrender.com/index.html)
+- 🚀 **Site en ligne** : [https://valdesombilingo.github.io/valdesombilingo-portfolio/](https://valdesombilingo.github.io/valdesombilingo-portfolio/)
+- 🐙 **Dépôt GitHub public contenant le code source** : [https://github.com/valdesombilingo/valdesombilingo-portfolio](https://github.com/valdesombilingo/valdesombilingo-portfolio)
 - 🧩 **Maquette Figma** : [Voir sur Figma](https://www.figma.com/design/1IluxwmEj5OVSIbHij3KIF/maquette-Portfolio---Valdes-Ombilingo?node-id=0-1&t=XHi0tsHJPxGgBd1h-1)
 
 ---
